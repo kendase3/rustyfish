@@ -1,0 +1,7 @@
+[package]
+name = "rustyfish"
+version = "0.1.0"
+authors = ["Scott Campion"]
+edition = "2018"
+
+[dependencies]
