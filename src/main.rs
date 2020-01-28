@@ -1,6 +1,5 @@
-
 fn hello_func(greet_target: &str) -> String {
-   format!("Hello, {}!", greet_target)
+    format!("Hello, {}!", greet_target)
 }
 
 fn main() {
@@ -12,8 +11,7 @@ mod tests {
     use super::*;
     #[test]
     fn test_hello() {
-        let target = "Foss";
-        let actual = hello_func(target);
+        let actual = hello_func("Foss");
         let expected = "Hello, Foss!".to_string();
         assert_eq!(expected, actual);
     }
