@@ -11,8 +11,8 @@ mod tests {
     use super::*;
     #[test]
     fn test_hello() {
-        let actual = hello_func("Foss");
-        let expected = "Hello, Foss!".to_string();
+        let actual = hello_func("Fossinator");
+        let expected = "Hello, Fossinator!".to_string();
         assert_eq!(expected, actual);
     }
 }
