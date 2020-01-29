@@ -1,7 +1,13 @@
 [package]
 name = "rustyfish"
 version = "0.1.0"
-authors = ["Scott Campion"]
+authors = ["Scott Campion <scott.r.campion@gmail.com>"]
 edition = "2018"
 
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
 [dependencies]
+# dependencies as used in https://github.com/kendase3/hddvd
+# revision is arbitrary
+sdl2 = { git = "https://github.com/Rust-SDL2/rust-sdl2", rev = "48a4a8e5c51faf2b8c7570b87366bbea60d435e3", features = ["ttf", "image"] }
+gl = { git = "https://github.com/bjz/gl-rs" }
